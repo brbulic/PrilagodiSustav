@@ -36,8 +36,6 @@ end
 # gem 'unicorn'
 
 gem 'slim-rails'
-gem 'less', '~> 2.4.0'
-gem 'therubyracer'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
