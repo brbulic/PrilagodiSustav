@@ -15,7 +15,9 @@ Blog::Application.routes.draw do
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
 
-  resources :posts
+  resources :posts do
+    resources :comments
+    end
 
   # Example resource route with options:
   #   resources :products do

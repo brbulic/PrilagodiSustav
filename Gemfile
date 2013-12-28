@@ -36,6 +36,8 @@ end
 # gem 'unicorn'
 
 gem 'slim-rails'
+gem "sass"
+gem "coffee-script"
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
